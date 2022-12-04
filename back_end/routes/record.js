@@ -6,7 +6,7 @@ const express = require("express");
 const recordRoutes = express.Router();
 
 //Let's convert the id from string to objectId for the _id.
-const dbo = require("..db/connect");
+const dbo = require("../db/connect");
 const { response } = require("express");
 
 // Let's convert the id from string to ObjectId for the _id.
